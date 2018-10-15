@@ -1,5 +1,4 @@
-require 'curses'
-require_relative '../lib/ascii_graphics.rb'
+require 'curses/geometry'
 include Curses
 
 Signal.trap("INT") { close_screen; exit 0 }
@@ -49,7 +48,7 @@ begin
     draw_antialiased_line(x1, y1, x2, y2)
     
     refresh
-    sleep 0.1 
+    sleep 1 
   end
 ensure
   close_screen

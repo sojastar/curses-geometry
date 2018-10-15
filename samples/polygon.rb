@@ -1,5 +1,4 @@
-require 'curses'
-require_relative '../lib/ascii_graphics.rb'
+require 'curses/geometry'
 include Curses
 
 Signal.trap("INT") { close_screen; exit 0 }

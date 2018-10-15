@@ -120,7 +120,7 @@ module Line
 
     if dx == 0 then   # vertical line
       previous_stroke_glyph = get_stroke_glyph
-      set_stroke_glyph HORIZONTAL_GLYPH
+      set_stroke_glyph VERTICAL_GLYPH
       
       draw_vertical_line(x1, y1, y2)
 
