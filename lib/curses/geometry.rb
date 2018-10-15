@@ -1,9 +1,4 @@
 require 'curses'
-#require_relative './ascii_graphics/graphic_context.rb'
-#require_relative './ascii_graphics/char.rb'
-#require_relative './ascii_graphics/line.rb'
-#require_relative './ascii_graphics/rectangle.rb'
-#require_relative './ascii_graphics/polygon.rb'
 require_relative "geometry/version"
 require_relative "geometry/graphic_context"
 require_relative "geometry/glyph"
