@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sojastar07@gmail.com"]
 
   spec.summary       = %q{Adds some basic graphic primitives to the Curses module.}
-  spec.description   = %q{Adds some basic graphic primitives to the Curses module:\n- single glyphs\n- lines and antialiased lines\n- rectangles\n- convex polygons}
+  spec.description   = %q{Adds some basic graphic primitives to the Curses module. It can draw single glyphs, lines and antialiased lines, frames and filled rectangles, and arbitrary convex polygons.}
   spec.homepage      = "https://rubygems.org/gems/curses-geometry"
   spec.license       = "MIT"
 
@@ -36,5 +36,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_runtime_dependency     "curses"
+  spec.add_runtime_dependency     "curses", "~> 1.2.4"
 end
